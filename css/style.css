@@ -1168,9 +1168,11 @@ body.dark .col-4 i:hover {
     margin-top: 5rem;
   }
 
-  .nav-center .nav-hamburger img {
-    width: 3rem;
-    padding-right: 1rem;
+  .nav-hamburger img {
+    width: 90%;
+    position: relative;
+    top: -4rem;
+    margin-left: 0;
   }
   .header-content h1 {
     text-align: center;
