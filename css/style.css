@@ -1135,13 +1135,18 @@ body.dark .col-4 i:hover {
     position: relative;
     margin-top: 0;
     width: 60px;
-    right: 20px;
+    right: 120px;
+  }
+  .nav-center .nav-hamburger img {
+    left: 420px;
   }
   .checkbox:checked ~ .label .ball {
     background-color: whitesmoke;
     transform: translateX(32px);
   }
-
+  .logo img {
+    width: 30%;
+  }
   .header {
     margin-top: 1rem;
     width: 100%;
@@ -1348,6 +1353,16 @@ body.dark .col-4 i:hover {
 @media only screen and (max-width: 380px) {
   .label {
     right: 100px;
+  }
+  .nav-hamburger img {
+    position: relative;
+    top: -3rem;
+    margin-left: 3rem;
+  }
+  .theme {
+    position: absolute;
+    top: 1rem;
+    left: 65%;
   }
   .nav-center .nav-hamburger img {
     left: 300px;
